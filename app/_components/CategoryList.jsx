@@ -13,10 +13,10 @@ const CategoryList = ({ categoryList }) => {
           <div className={`flex flex-col items-center justify-center gap-2 bg-transparent 
           bg-blue-200 p-4 cursor-pointer rounded-lg hover:scale-105 transition-all ease-in`}>
             <Image 
-              src={category.icon.url}
-              alt={category.icon.alt || 'icon'}
-              width={category.icon.width || 35}
-              height={category.icon.height || 35}
+              src={category?.icon?.url}
+              alt={category?.icon?.alt || 'icon'}
+              width={category?.icon?.width || 35}
+              height={category?.icon?.height || 35}
               className='rounded-lg' 
             />
           </div>
